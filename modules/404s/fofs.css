@@ -1,0 +1,31 @@
+#so-fofs table.widefat {
+	width: 100%;
+	margin: 1em 0;
+}
+
+#so-fofs table tr.so-404s-hit-data td,
+#so-fofs table tr.so-404s-hit-referers td {
+	border-bottom: 0 none;
+}
+
+#so-fofs table tr.so-404s-hit-referers td,
+#so-fofs table tr.so-404s-hit-user-agents td {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+#so-fofs table tr.so-404s-new-hit td {
+	background-color: #DFFFE3;
+}
+
+#so-fofs table .actions span {
+	padding-right: 0.5em;
+}
+
+#so-fofs .so-404s-clear-log {
+	float: right;
+}
+
+#so-fofs .form-table input#max_log_size {
+	width: 5em;
+}

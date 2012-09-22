@@ -1,0 +1,35 @@
+#so-internal-link-aliases table.widefat,
+#so-internal-link-aliases table.widefat input.textbox {
+	width: 100%;
+}
+
+#so-internal-link-aliases table.widefat td {
+	vertical-align: middle;
+}
+
+#so-internal-link-aliases table.widefat td.so-alias-to {
+	width: 15em;
+}
+
+#so-internal-link-aliases table.widefat td.so-alias-to-test {
+	font-size: 0.8em;
+}
+
+#so-internal-link-aliases table.widefat td.so-alias-delete {
+	width: 3em;
+	text-align: center;
+}
+
+#so-internal-link-aliases table.widefat td.so-alias-to table,
+#so-internal-link-aliases table.widefat td.so-alias-to table tr,
+#so-internal-link-aliases table.widefat td.so-alias-to table tr td {
+	border-collapse: 0;
+	padding: 0;
+	margin: 0;
+	border: 0 none;
+	background: transparent;
+}
+
+#so-internal-link-aliases table.widefat td.so-alias-to table tr td input.textbox {
+	width: 98%;
+}

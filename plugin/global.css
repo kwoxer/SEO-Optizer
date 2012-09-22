@@ -1,0 +1,157 @@
+/*
+SEO Optimization CSS
+These styles are sometimes or always referenced outside of SEO Optimization's admin pages, so we include this file throughout the WordPress admin.
+*/
+
+/* MENU */
+
+.toplevel_page_seo div.wp-menu-image {
+	background-image: url(images/icon.png);
+	background-position: -1px -33px;
+}
+
+.toplevel_page_seo:hover div.wp-menu-image,
+.toplevel_page_seo .wp-has-current-submenu div.wp-menu-image {
+	background-position: -1px -1px;
+}
+
+/* MESSAGES */
+
+.so-success, .so-error,
+.so-warning, .so-info {
+	padding-left: 21px;
+	background-repeat: no-repeat;
+	background-position: 0px center;
+}
+
+.so-success {
+	background-image: url(images/success.png);
+	color: #008000;
+}
+
+.so-error {
+	background-image: url(images/error.png);
+	color: #FF0000;
+}
+
+.so-warning {
+	background-image: url(images/warning.png);
+	color: #FF8C00;
+}
+
+.so-info {
+	background-image: url(images/info.png);
+	color: #0000FF;
+}
+
+#wpcontent div.so-status,
+#wpcontent span.so-status {
+	background-position: 10px center;
+	padding-left: 31px;
+}
+
+#wpcontent .so-message p,
+#wpcontent p.so-status {
+	margin: 1em 0;
+	color: black;
+	background-position: 10px center;
+	padding: 10px 10px 10px 36px;
+}
+
+#wpcontent .so-message p {
+	border-width: 1px;
+	border-style: solid;
+}
+
+.so-message .so-success {
+	background-color: #DFFFE3;
+	border-color: #61DF6F;
+}
+
+.so-message .so-error {
+	background-color: #FFBFBF;
+	border-color: #FF0000;
+}
+
+.so-message .so-warning {
+	background-color: #FFFFE0;
+	border-color: orange;
+}
+
+.so-message .so-info {
+	background-color: #DFEEFF;
+	border-color: #8F93FF;
+}
+
+/* CONTEXTUAL HELP */
+
+div.so-help div.metabox-prefs {
+	margin-bottom: 2em;
+}
+
+div.so-help ul {
+	list-style-type: disc;
+	padding-left: 1em;
+	margin-left: 1em;
+}
+
+div.so-help h6 {
+	font-size: 0.9em;
+	font-weight: bold;
+	margin: 2em 0 0 0;
+	padding: 0;
+}
+
+/* POSTMETA BOX */
+
+#so-postmeta-box table th.so,
+#so-postmeta-box table td.so {
+	padding: 0.5em 0;
+}
+
+#so-postmeta-box table th.so {
+	text-align: right;
+	font-weight: bold;
+	padding-right: 0.5em;
+	width: 12em;
+}
+
+#so-postmeta-box table tr.textarea th.so label {
+	display: block;
+	margin-top: 5px;
+}
+
+#so-postmeta-box table th.so em {
+	font-weight: normal;
+}
+
+#so-postmeta-box table,
+#so-postmeta-box table td input.regular-text,
+#so-postmeta-box table td textarea {
+	width: 100%;
+}
+
+#so-postmeta-box select optgroup,
+div.so-module select optgroup {
+	margin-top: 1em;
+}
+
+#so-postmeta-box select optgroup option,
+div.so-module select optgroup option {
+	margin-left: 1em;
+}
+
+#so-postmeta-box table.widefat {
+	width: auto;
+}
+
+#so-postmeta-box table.widefat td {
+	vertical-align: middle;
+}
+
+
+/* PLUGIN NOTICES */
+
+#wpwrap .so-plugin-notice .update-message, #wpwrap .so-plugin-update-info {
+	font-weight: normal;
+}

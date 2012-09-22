@@ -1,0 +1,29 @@
+#so-modules td.module-status {
+	padding-right: 2em;
+}
+
+#so-modules td.module-status input {
+	display: none;
+}
+
+#so-modules td.module-status a {
+	float: left;
+	display: block;
+	border: 1px solid transparent;
+	padding: 0.3em 0.5em;
+	color: #999;
+	margin-right: 0.2em;
+}
+
+#so-modules td.module-status a:hover {
+	border-color: #ccc #666 #666 #ccc;
+}
+
+#so-modules td.module-status a.current {
+	border-color: #666 #ccc #ccc #666;
+}
+
+#so-modules td.module-status .status-10 a.current { color: green; }
+#so-modules td.module-status .status-5  a.current { color: black; }
+#so-modules td.module-status .status-0 a.current  { color: darkorange; }
+#so-modules td.module-status .status-n10 a.current{ color: red; }
